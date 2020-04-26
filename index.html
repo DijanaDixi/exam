@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="statistic">
+      <!--  exam statistic-->
+      <div class="count">
+        <h1>Exam statistic June</h1>
+        <h2>Total students <span>count</span></h2>
+  
+        <p id="passed">PASSED<span></span></p>
+        <p id="failed">FAILED<span></span></p>
+      </div>
+
+<!-- Select exam -->
+      <div id="grade">
+        <fieldset class="select">
+          <select>
+            <option value="">-</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+          </select>
+
+<!--Input-->
+          <input type="text" placeholder="Name Surname" class="name" required />
+          <input type="text" placeholder="Grade" class="grade" required />
+          <input type="button" value="ADD" class="add" /><br />
+          <div class="subject-error"></div>
+        </fieldset>
+      </div>
+
+      <!-- Finish statistic -->
+
+      <div class="passedFinish">
+        <h4 >PASSED</h4>
+        <!-- placeholder -->
+      </div>
+
+      <div class="failedFinish">
+        <h4 id="red">FAILED</4>
+        <!-- placeholder -->
+      </div>
+    </div>
+ 
+    <script type="module" src="/js/exam.js">
+        collectionData()
+    </script>
+   
+  </body>
+</html>

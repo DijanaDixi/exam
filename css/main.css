@@ -1,0 +1,133 @@
+#statistic {
+    width: 1200px;
+    margin: auto;
+
+}
+
+.count {
+    background-image: url("getty_883231284_200013331818843182490_335833.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    height: 500px;
+}
+
+.count p {
+    margin-top: 15px;
+    margin-left: 480px;
+    border-width: 0px;
+    height: 35px;
+    border-radius: 5px;
+    padding-top: 13px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 220px;
+}
+
+h2 {
+
+    text-align: center;
+    /* color: #ab6503; */
+    color: white;
+}
+
+
+
+#passed {
+    background-color: #ab2803;
+    width: 250px;
+    font-weight: bold;
+}
+
+#failed {
+    background-color: #fcba03;
+    width: 250px;
+    font-weight: bold;
+}
+
+#passed span {
+    color: white;
+    float: right;
+    font-weight: bold;
+    padding-right: 80px;
+}
+
+#failed span {
+    float: right;
+    font-weight: bold;
+    padding-right: 14px;
+    color: white;
+}
+
+#failed span:first-child {
+    background-color: #ab6503;
+}
+
+fieldset {
+    background-color: #faf8f7;
+    height: 50px;
+    border: none;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+
+input[type=button].add {
+    color: #34ebde;
+    font-weight: bold;
+
+}
+
+.subject-error {
+    color: red;
+}
+
+.passedFinish {
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    height: 500px;
+
+}
+
+.failedFinish {
+    width: 50%;
+    float: right;
+
+    text-align: center;
+    height: 500px;
+
+
+}
+
+h4 {
+    color: #ab2803;
+    text-align: center;
+}
+
+#red {
+    color: #fcba03;
+    text-align: center;
+
+}
+
+li {
+    list-style-type: none;
+ 
+    color: gray;
+    border-bottom: 1px solid rgb(236, 232, 232);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+li span {
+    color: #34ebde;
+    float: right;
+    font-weight: bold;
+}
